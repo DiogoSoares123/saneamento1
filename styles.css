@@ -1,115 +1,115 @@
 /* Resetando algumas propriedades básicas */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* { 
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Define o box-sizing como border-box para todos os elementos, para facilitar o controle de largura e altura */
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif; /* Define a fonte principal da página */
+    background-color: #f4f4f4; /* Define a cor de fundo do body */
+    color: #333; /* Define a cor do texto */
+    line-height: 1.6; /* Ajusta o espaçamento entre as linhas de texto */
 }
 
 /* Estilizando o cabeçalho */
 header {
-    background: #007BFF;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    background: #007BFF; /* Define a cor de fundo do cabeçalho */
+    color: #fff; /* Define a cor do texto no cabeçalho */
+    padding: 20px; /* Adiciona espaçamento interno ao cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento interno da lista */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 15px; /* Adiciona espaçamento horizontal entre os itens */
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+    color: #fff; /* Define a cor dos links no cabeçalho */
+    text-decoration: none; /* Remove a linha sublinhada dos links */
+    font-weight: bold; /* Define o peso da fonte como negrito */
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adiciona sublinhado aos links ao passar o mouse */
 }
 
 /* Estilizando o conteúdo principal */
 main {
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Adiciona espaçamento interno */
+    max-width: 800px; /* Define a largura máxima do main */
+    margin: auto; /* Centraliza o main na página */
+    background: #fff; /* Define a cor de fundo do main */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
 }
 
 h1, h2, h3 {
-    color: #007BFF;
+    color: #007BFF; /* Define a cor dos títulos */
 }
 
 h2 {
-    margin-top: 20px;
+    margin-top: 20px; /* Adiciona espaçamento acima do h2 */
 }
 
 /* Estilizando listas e formulários */
 ul {
-    margin: 20px 0;
+    margin: 20px 0; /* Adiciona espaçamento acima e abaixo das listas */
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+    display: flex; /* Exibe o formulário em flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    margin-top: 20px; /* Adiciona espaçamento acima do formulário */
 }
 
 label {
-    margin-bottom: 5px;
+    margin-bottom: 5px; /* Adiciona espaçamento abaixo do rótulo */
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 10px; /* Adiciona preenchimento interno */
+    margin-bottom: 10px; /* Adiciona espaçamento abaixo dos campos */
+    border: 1px solid #ccc; /* Define uma borda cinza clara */
+    border-radius: 4px; /* Arredonda os cantos dos campos */
 }
 
 button {
-    padding: 10px;
-    background: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    background: #007BFF; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 4px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Define o cursor como "pointer" ao passar o mouse */
 }
 
 button:hover {
-    background: #0056b3;
+    background: #0056b3; /* Altera a cor de fundo do botão ao passar o mouse */
 }
 
 /* Estilizando o rodapé */
 footer {
-    text-align: center;
-    padding: 20px;
-    background: #007BFF;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background: #007BFF; /* Define a cor de fundo do rodapé */
+    color: #fff; /* Define a cor do texto no rodapé */
+    position: relative; /* Define a posição relativa do rodapé */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+    width: 100%; /* Define o rodapé para ocupar 100% da largura */
 }
 
 /* Responsividade */
 @media (max-width: 600px) {
     nav ul li {
-        display: block;
-        margin: 10px 0;
+        display: block; /* Exibe os itens da lista em bloco (verticalmente) em telas pequenas */
+        margin: 10px 0; /* Adiciona espaçamento vertical entre os itens */
     }
 }
